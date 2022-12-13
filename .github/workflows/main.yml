@@ -51,7 +51,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_TAGNAME }}/devops:latest
+          tags: ${{ secrets.DOCKER_HUB_NAME }}/devops:latest
 
   compile:
     runs-on: ubuntu-latest
